@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+}
+#ad {
+    display: block;
+    overflow: hidden;
+    width: 300px;
+    height: 250px;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#banner {
+    position: absolute;
+    display: block;
+    width: 300px;
+    height: 250px;
+    background-color: #FFF;
+    background-image: url("../images/backup.jpg");
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+#clickthrough-button{
+    position: absolute;
+    width: 300px;
+    height:250px;
+    cursor: pointer;
+    z-index: 2;
+}
